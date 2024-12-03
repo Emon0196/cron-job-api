@@ -1,0 +1,57 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build files
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# IDE-related files
+.idea/
+.vscode/
+*.code-workspace
+
+# Debugger-related files
+*.log
+
+# Coverage output
+coverage/
+
+# Test dependencies
+.nyc_output/
+
+# Local server configuration
+*.local
+
+# Packages
+*.tgz
+
+# Lock files
+yarn.lock
+
+# Git-related files
+*.orig
+
+# Sentry files
+.sentryclirc
+
+# AWS credentials
+.aws/
+
+# Generated files
+docs/
