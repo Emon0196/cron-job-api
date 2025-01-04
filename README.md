@@ -1,4 +1,4 @@
-Cron-Job-API
+# Cron-Job-API
 
 This is a Back-End project for creating Cron Job API that processes
 Subscription Payment. This API runs every 24 hours to process user subscription payments based on the user’s status. It Checks for users whose trial plans have expired (planEndDate is in the past). If a user's status is active, the API charges them $97 using Authorize.net sdk. Payment details (card number, CVC, expiry date) are stored in the user schema. Besides, it logs the payment success or failure and updates the subscription status accordingly.
